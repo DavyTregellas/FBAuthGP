@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+/* Styling for the navigation bar */
+.nav {
+  background-color: #333;
+  height: 60px; /* Increase the height for a thicker navigation bar */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav li {
+  margin: 0 20px; /* Increase the spacing between menu items */
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  font-size: 16px; /* Adjust the font size */
+}
+
+.nav a:hover {
+  color: #ddd;
+}
+
+/* Style for the active link */
+.nav .active {
+  color: #ddd;
+}
+
+
+/* Styling for the login page */
+.loginPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.loginPage h2 {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+
+.loginPage p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #777;
+}
+
+.login-with-google-btn {
+  background-color: #4285f4;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.login-with-google-btn:hover {
+  background-color: #357ae8;
+}
+
+.email-password-signin form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email-password-signin label {
+  font-size: 16px;
+  color: #333;
+}
+
+.email-password-signin input {
+  font-size: 16px;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.email-password-signin button {
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.email-password-signin button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  font-size: 16px;
+  color: #e74c3c;
+  margin: 10px 0;
+}
+
+.toggle-link {
+  font-size: 16px;
+  color: #007bff;
+  cursor: pointer;
+}
+
